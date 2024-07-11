@@ -9,4 +9,5 @@ connectToDB()
   })
   .catch((error) => {
     console.log("Connection Failed with MongoDB !!");
+    throw error;
   });
